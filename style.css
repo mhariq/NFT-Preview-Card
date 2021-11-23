@@ -18,7 +18,9 @@ body {
   max-width: 25%;
   margin: 10% auto;
   padding: 3.2rem;
-  background-color: hsl(216, 50%, 16%);
+  /* background-color: hsl(216, 50%, 16%); */
+
+  background-color: white;
   border-radius: 1.8rem;
 }
 
