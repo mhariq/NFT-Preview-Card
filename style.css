@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "open sans", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 25%;
+  margin: 10% auto;
+  padding: 3.2rem;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 1.8rem;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 1.8rem;
+  margin-bottom: 3.6rem;
+}
+
+.mb {
+  margin-bottom: 1.8rem;
+}
+
+.card-title {
+  color: #fff;
+  font-size: 2.4rem;
+  letter-spacing: 1.3px;
+}
+
+.card-text {
+  font-size: 1.8rem;
+  color: hsl(215, 51%, 70%);
+}
+
+.card-text p {
+  line-height: 1.5;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gap {
+  gap: 1.2rem;
+}
+
+.card-price p {
+  color: hsl(178, 100%, 50%);
+  font-weight: 700;
+}
+
+.creator-section {
+  border-top: 2px solid hsl(215, 32%, 27%);
+  padding-top: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.creator-img {
+  width: 4.2rem;
+}
+
+.creator-name {
+  color: #fff;
+}

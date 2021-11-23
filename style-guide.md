@@ -23,6 +23,19 @@ The designs were created to the following widths:
 
 ## Typography
 
+-FONT WEIGHTS:
+
+Default: 400
+Medium: 500
+Semi-Bold: 600
+Bold: 700
+
+-LINE HEIGHTS:
+DEFAULT - 1
+H1 - 1.05
+1.2
+Parahraph - 1.6
+
 ### Body Copy
 
 - Font size (paragraph): 18px
