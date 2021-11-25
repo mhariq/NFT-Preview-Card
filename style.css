@@ -12,22 +12,49 @@ body {
   font-family: "open sans", sans-serif;
   line-height: 1;
   font-weight: 400;
+  background-color: #0d192b;
 }
 
 .container {
-  max-width: 25%;
+  max-width: 42rem;
   margin: 10% auto;
   padding: 3.2rem;
   background-color: hsl(216, 50%, 16%);
-
+  box-shadow: 0px 1.2rem 0 2.4rem #0a1422, 0px 2.6rem 0 6rem #0c1727;
   /* background-color: white; */
   border-radius: 1.8rem;
 }
-
-.card-img {
+.img {
+  height: 36rem;
   width: 100%;
+  display: block;
+  background-image: url(images/image-equilibrium.jpg);
+  background-size: cover;
+  background-position: center;
   border-radius: 1.8rem;
-  margin-bottom: 3.6rem;
+  margin: 0 0 3.6rem 0;
+  /* position: relative; */
+}
+
+.img:hover {
+  background-image: linear-gradient(
+      rgba(0, 255, 247, 0.4),
+      rgba(0, 255, 247, 0.4)
+    ),
+    url(images/image-equilibrium.jpg);
+}
+
+.img:hover .icon-view {
+  display: block;
+}
+
+.icon-view {
+  width: 4.8rem;
+  position: relative;
+  top: 50%;
+  right: -50%;
+  transform: translate3d(-50%, -50%, 0);
+  display: none;
 }
 
 .mb {
@@ -38,6 +65,10 @@ body {
   color: #fff;
   font-size: 2.4rem;
   letter-spacing: 1.3px;
+}
+
+.card-title:hover {
+  color: hsl(178, 100%, 50%);
 }
 
 .card-text {
@@ -78,4 +109,21 @@ body {
 
 .creator-name {
   color: #fff;
+}
+
+.creator-name:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+@media (max-width: 35rem) {
+  html {
+    font-size: 50%;
+  }
+
+  .container {
+    max-width: 32rem;
+  }
+  .img {
+    height: 28rem;
+  }
 }
